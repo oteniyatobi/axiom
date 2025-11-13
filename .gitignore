@@ -1,0 +1,12 @@
+*.njsproj
+*.sln
+*.sw?
+.env
+/node_modules/
+/dist/
+/build/
+/.vite
+/.DS_Store
+Thumbs.db
+.vercel
+.netlify
