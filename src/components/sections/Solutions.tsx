@@ -95,7 +95,18 @@ const Solutions = () => {
                 title="Axiom Solution Demo - Connecting Farmers to Real Markets"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
+                frameBorder="0"
               />
+            </div>
+            <div className="mt-4 text-center">
+              <a
+                href="https://youtube.com/shorts/_8SO1JDG5To"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline text-sm"
+              >
+                Watch on YouTube ↗
+              </a>
             </div>
           </div>
         </div>
