@@ -88,10 +88,10 @@ const Solutions = () => {
           </div>
           
           <div className="max-w-4xl mx-auto">
-            <div className="relative aspect-[9/16] md:aspect-video rounded-lg overflow-hidden border-2 border-primary/20 shadow-2xl bg-card">
+            <div className="relative aspect-video rounded-lg overflow-hidden border-2 border-primary/20 shadow-2xl bg-card">
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/_8SO1JDG5To"
+                src="https://www.youtube.com/embed/s6Hm7-PNY0Q"
                 title="Axiom Solution Demo - Connecting Farmers to Real Markets"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
@@ -100,7 +100,7 @@ const Solutions = () => {
             </div>
             <div className="mt-4 text-center">
               <a
-                href="https://youtube.com/shorts/_8SO1JDG5To"
+                href="https://youtu.be/s6Hm7-PNY0Q"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline text-sm"
