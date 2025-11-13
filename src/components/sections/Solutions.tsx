@@ -75,6 +75,31 @@ const Solutions = () => {
           ))}
         </div>
 
+        {/* Solution Demo Video */}
+        <div className="mb-16">
+          <div className="text-center mb-8">
+            <h3 className="text-3xl md:text-4xl font-bold mb-4">
+              See Our <span className="text-gradient">Solution in Action</span>
+            </h3>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Watch how our app connects farmers directly to real markets, eliminating middlemen 
+              and increasing profits for agricultural communities.
+            </p>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="relative aspect-[9/16] md:aspect-video rounded-lg overflow-hidden border-2 border-primary/20 shadow-2xl bg-card">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/_8SO1JDG5To"
+                title="Axiom Solution Demo - Connecting Farmers to Real Markets"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+
         <Card className="border-primary/20 bg-gradient-to-br from-primary/5 to-primary/10">
           <CardContent className="pt-8 pb-8 text-center">
             <h3 className="text-2xl font-bold mb-4">
